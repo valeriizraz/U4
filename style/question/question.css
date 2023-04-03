@@ -20,7 +20,7 @@
   background-image: url(../../image/question/background_question.jpg);
   background-size: cover;
   z-index: -2;
-  filter: brightness(0.6);
+  filter: brightness(0.3);
 }
 
 .question__title {
