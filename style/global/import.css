@@ -1,4 +1,7 @@
-@import "fonts.css";
+/* @import "fonts.css"; */
 @import "normalize.css";
 @import "global.css";
 @import "../header/header.css";
+@import "../advanteges/advantages.css";
+@import "../question/question.css";
+@import "../footer/footer.css";

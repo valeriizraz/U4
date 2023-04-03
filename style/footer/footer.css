@@ -1,0 +1,49 @@
+.footer {
+  padding: 45px 0;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+
+  background-color: #2F324B;
+}
+
+.footer__container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
+}
+
+.footer__left-logo-svg {
+  display: inline-block;
+  margin-right: 19px;
+}
+
+.footer__left-company {
+  display: inline-block;
+  width: 127px;
+}
+
+.footer__right-contact {
+  width: 210px;
+  font-weight: 400;
+  text-align: center;
+}
+.footer__tel {
+  padding-bottom: 3px;
+
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer__link {
+  font-size: 16px;
+  line-height: 19px;
+
+  border-bottom: 1px solid #fff;
+}
