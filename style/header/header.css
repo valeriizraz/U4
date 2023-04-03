@@ -101,8 +101,6 @@
   .header {
     padding-top: 26px;
     padding-bottom: 70px;
-
-    background-image: url(/image/header/background_1024.jpg);
   }
 
   .header__top-flex {
@@ -184,10 +182,6 @@
 }
 
 @media (max-width: 600px) {
-
-  .header {
-    background-image: url(../../image/header/background_320.jpg);
-  }
 
   .header__title {
     margin-bottom: 25px;
