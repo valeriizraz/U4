@@ -10,7 +10,7 @@
   content: '';
   display: inline-block;
   
-  background-image: url(/image/header/background_header.jpg);
+  background-image: url(../../image/header/background_header.jpg);
   background-size: cover;
 
   position: absolute;
