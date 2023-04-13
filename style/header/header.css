@@ -27,8 +27,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-  margin-bottom: 120px;
+.header__top-box-logo {
+  height: 68px;
 }
 
 .header__top-tel {
@@ -55,6 +57,10 @@
   display: none;
 }
 
+.header__content {
+  padding-top: 120px;
+}
+
 .header__content-flex {
   display: flex;
   justify-content: center;
@@ -74,7 +80,7 @@
 }
 
 .header__text {
-  margin-bottom: 90px;
+  margin-bottom: 86px;
 
   font-weight: 400;
   font-size: 22px;
@@ -105,8 +111,10 @@
 
   .header__top-flex {
     min-height: 60px;
+  }
 
-    margin-bottom: 70px;
+  .header__top-box-logo {
+    height: 60px;
   }
 
   .header__logo {
@@ -115,15 +123,25 @@
   }
 
   .header__top-tel {
-    margin-bottom: 4px;
+    padding-bottom: 3px;
+    /* margin-bottom: 4px; */
 
     font-size: 21px;
     line-height: 25px;
   }
 
+  .header__top-link {  
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header__content {
+    padding-top: 70px;
+  }
+
   .header__content-box {
-    width: 780px;
-    min-height: 302px;
+    width: 770px;
+    
   }
 
   .header__title {
@@ -134,7 +152,7 @@
   }
 
   .header__text {
-    margin-bottom: 60px;
+    margin-bottom: 57px;
 
     font-size: 18px;
     line-height: 25px;
@@ -200,6 +218,7 @@
 @media (max-width: 320px) {
 
   .header {
+    padding-bottom: 65px;
     align-content: center;
   }
 
@@ -210,6 +229,10 @@
 
   .header__top-flex {
     min-height: 30px;
+  }
+
+  .header__top-box-logo {
+    height: 30px;
   }
 
   .header__logo {
@@ -223,26 +246,40 @@
 
   .header__top-box-tel-img {
     display: inline-block;
+    width: 24px;
+    height: 24px;
   }
 
   .header__top-tel {
     font-size: 18px;
   }
 
+  .header__top-tel-img {
+    width: 24px;
+  }
+
+  .header__content {
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+
   .header__title {
     padding: 0;
-    margin-bottom: 23px;
-    /* padding: 0 20px; */
+    margin-bottom: 26px;
 
     font-size: 20px;
     line-height: 23px;
   }
 
   .header__text {
-    margin-bottom: 54px;
+    margin-bottom: 53px;
 
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .header__text-none {
+    display: none;
   }
 
   .header__button {
